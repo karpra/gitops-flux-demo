@@ -7,7 +7,6 @@ labels:
       lob: auto
       app: nginx
       env: dev
-      flx: demo
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
 replicas:
