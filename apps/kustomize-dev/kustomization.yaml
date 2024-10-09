@@ -9,7 +9,7 @@ labels:
       env: dev
       priority: low
     includeSelectors: true # <-- false by default
-    includeTemplates: false # <-- false by default
+    includeTemplates: true # <-- false by default
 replicas:
 - name: nginx-deploy
   count: 1
