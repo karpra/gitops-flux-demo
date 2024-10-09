@@ -4,9 +4,10 @@ resources:
   - ../base/nginx
 labels:
   - pairs:
-      env: dev
-      lob: auto 
+      someName: demo
+      owner: auto
       app: nginx
+      env: dev
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
 #patches:
