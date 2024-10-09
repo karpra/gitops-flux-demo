@@ -10,12 +10,12 @@ spec:
   replicas: 5
   selector:
     matchLabels:
-      app: nginx-deploy
+      app: nginx
       lob: auto
       env: prod
   template:
     metadata:
       labels:
-        app: nginx-deploy
+        app: nginx
         lob: auto
         env: prod
