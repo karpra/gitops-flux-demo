@@ -4,14 +4,14 @@ resources:
   - ../base/nginx
 labels:
   - pairs:
-      lob: auto
+      lob: finance
       app: nginx
       env: dev
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
 replicas:
 - name: nginx-deploy
-  count: 3
+  count: 5
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
