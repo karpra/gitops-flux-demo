@@ -6,8 +6,8 @@ spec:
   replicas: 7
   selector:
     matchLabels:
-      app: nginx-prod-kp
+      app: nginx-prod
   template:
     metadata:
       labels:
-        app: nginx-prod-kp
+        app: nginx-prod
