@@ -3,6 +3,4 @@ kind: Kustomization
 resources:
   - ../base/nginx
 patchesStrategicMerge:
-  - path: nginx-dev.yaml
-    target:
-      kind: Deployment
+  - nginx-dev.yaml
