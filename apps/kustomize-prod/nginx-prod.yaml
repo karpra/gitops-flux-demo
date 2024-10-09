@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-prod
+  name: nginx-deploy
   labels:
     lob: auto
     env: prod
