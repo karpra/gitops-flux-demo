@@ -9,15 +9,11 @@ spec:
   selector:
     matchLabels:
       app: nginx-deploy
-      lob: none
-      env: none
   strategy: {}
   template:
     metadata:
       labels:
         app: nginx-deploy
-        lob: none
-        env: none
     spec:
       containers:
       - image: nginx

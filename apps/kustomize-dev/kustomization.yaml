@@ -2,7 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - ../base/nginx
-patches:
-  - path: nginx-dev.yaml
-    target:
-      kind: Deployment
+replicas:
+- name: nginx-deploy
+  count: 3
