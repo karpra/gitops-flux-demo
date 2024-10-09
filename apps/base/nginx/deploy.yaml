@@ -6,16 +6,7 @@ metadata:
   name: nginx-deploy
 spec:
   replicas: 1
-  selector:
-    matchLabels:
-      lob: none
-      env: none
-  strategy: {}
   template:
-    metadata:
-      labels:
-        lob: none
-        env: none
     spec:
       containers:
       - image: nginx
