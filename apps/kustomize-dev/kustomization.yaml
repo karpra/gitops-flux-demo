@@ -9,6 +9,9 @@ labels:
       env: dev
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
+replicas:
+- name: nginx-deploy
+  count: 3
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
