@@ -4,8 +4,7 @@ resources:
   - ../base/nginx
 labels:
   - pairs:
-      someName: demo
-      owner: auto
+      lob: auto
       app: nginx
       env: dev
     includeSelectors: true # <-- false by default
