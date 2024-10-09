@@ -3,21 +3,17 @@ kind: Deployment
 metadata:
   labels:
     app: nginx-deploy
-    env: none
-    app: none
   name: nginx-deploy
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-deploy
       lob: none
       env: none
   strategy: {}
   template:
     metadata:
       labels:
-        app: nginx-deploy
         lob: none
         env: none
     spec:
