@@ -6,10 +6,10 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
-      env: prod
+      app: nginx-prod
+      lob: auto
   template:
     metadata:
       labels:
-        app: nginx
-        env: prod
+        app: nginx-prod
+        lob: auto
