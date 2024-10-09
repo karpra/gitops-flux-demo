@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deploy-prod-kp
+  name: nginx-deploy-prod
 spec:
   replicas: 7
   selector:
