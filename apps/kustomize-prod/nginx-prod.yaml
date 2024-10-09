@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deploy-prod
+  name: nginx-deploy-prod-kp
 spec:
-  replicas: 5
+  replicas: 7
   selector:
     matchLabels:
-      app: nginx-prod
+      app: nginx-prod-kp
   template:
     metadata:
       labels:
-        app: nginx-prod
+        app: nginx-prod-kp
