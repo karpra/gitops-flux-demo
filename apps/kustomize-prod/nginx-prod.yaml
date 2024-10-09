@@ -7,9 +7,7 @@ spec:
   selector:
     matchLabels:
       app: nginx-prod
-      lob: auto
   template:
     metadata:
       labels:
         app: nginx-prod
-        lob: auto
