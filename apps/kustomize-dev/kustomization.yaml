@@ -11,7 +11,7 @@ labels:
     includeTemplates: true # <-- false by default
 replicas:
 - name: nginx-deploy
-  count: 5
+  count: 2
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
