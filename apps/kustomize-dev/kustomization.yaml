@@ -7,12 +7,12 @@ labels:
       lob: auto
       app: nginx
       env: dev
-      priority: low
+      priority: high
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
 replicas:
 - name: nginx-deploy
-  count: 1
+  count: 2
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
