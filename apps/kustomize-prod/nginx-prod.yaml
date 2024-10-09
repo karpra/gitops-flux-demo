@@ -7,12 +7,3 @@ metadata:
     env: prod
 spec:
   replicas: 5
-  selector:
-    matchLabels:
-      lob: auto
-      env: prod
-  template:
-    metadata:
-      labels:
-        lob: auto
-        env: prod
