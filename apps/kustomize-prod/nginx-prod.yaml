@@ -3,11 +3,13 @@ kind: Deployment
 metadata:
   name: nginx-deploy
 spec:
-  replicas: 10
+  replicas: 1
   selector:
     matchLabels:
-      app: nginx-prod
+      app: nginx
+      env: prod
   template:
     metadata:
       labels:
-        app: nginx-prod
+        app: nginx
+        env: prod
