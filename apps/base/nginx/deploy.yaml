@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   labels:
     app: nginx-deploy
+    lob: none
+    env: none
   name: nginx-deploy
 spec:
   replicas: 1
