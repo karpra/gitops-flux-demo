@@ -4,9 +4,9 @@ resources:
   - ../base/nginx
 labels:
   - pairs:
-      someName: someValue
-      owner: alice
-      app: bingo
+      env: dev
+      lob: auto 
+      app: nginx
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
 #patches:
