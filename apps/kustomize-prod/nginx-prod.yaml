@@ -1,6 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-prod
+  name: nginx-deploy
+  labels:
+    app: nginx
+    lob: auto
+    env: prod
 spec:
   replicas: 5
+  selector:
+    matchLabels:
+      app: nginx
+      lob: auto
+      env: prod
+  template:
+    metadata:
+      labels:
+        app: nginx
+        lob: auto
+        env: prod
