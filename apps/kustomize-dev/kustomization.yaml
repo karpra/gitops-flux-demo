@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - ../base/nginx
 patches:
-  - path: nginx-prod.yaml
+  - path: nginx-dev.yaml
     target:
       kind: Deployment
