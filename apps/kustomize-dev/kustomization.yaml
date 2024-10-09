@@ -4,7 +4,7 @@ resources:
   - ../base/nginx
 labels:
   - pairs:
-      lob: finance
+      lob: auto
       app: nginx
       env: dev
     includeSelectors: true # <-- false by default
