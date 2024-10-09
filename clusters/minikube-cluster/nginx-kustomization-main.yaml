@@ -5,9 +5,9 @@ metadata:
   name: nginx-prod
   namespace: flux-system
 spec:
-  interval: 0m30s
+  interval: 30m30s
   path: ./apps/kustomize-prod
-  prune: false
+  prune: true
   retryInterval: 1m0s
   sourceRef:
     kind: GitRepository
