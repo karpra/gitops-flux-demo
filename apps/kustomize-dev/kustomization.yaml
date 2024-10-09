@@ -2,7 +2,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 resources:
   - ../base/nginx
-patchesStrategicMerge:
+patches:
   - path: nginx-dev.yaml
     target:
       kind: Deployment
