@@ -3,16 +3,13 @@ kind: Kustomization
 resources:
   - ../base/nginx
 labels:
-  - pairs:
-      lob: auto
-      app: nginx
-      env: dev
-      priority: low
-    includeSelectors: true # <-- false by default
-    includeTemplates: true # <-- false by default
+- includeSelectors: true
+- includeTemplates: true
+  pairs:
+    env: dev
 replicas:
 - name: nginx-deploy
-  count: 0
+  count: 1
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
