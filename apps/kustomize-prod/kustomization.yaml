@@ -8,5 +8,6 @@ patches:
     kind: Deployment
 labels:
 - includeSelectors: true
+- includeTemplates: true
   pairs:
     env: prod
