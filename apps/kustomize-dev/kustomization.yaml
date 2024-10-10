@@ -7,7 +7,7 @@ labels:
 - includeTemplates: true
   pairs:
     env: dev
-    priority: high
+    priority: low
 replicas:
 - name: nginx
   count: 2
