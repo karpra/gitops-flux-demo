@@ -8,7 +8,7 @@ labels:
   pairs:
     env: dev
 replicas:
-- name: nginx-deploy
+- name: nginx
   count: 1
 #patches:
 #  - path: nginx-dev.yaml
