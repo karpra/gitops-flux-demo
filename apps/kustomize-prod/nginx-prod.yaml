@@ -7,3 +7,10 @@ metadata:
     env: prod
 spec:
   replicas: 5
+  selector:
+    matchLabels:
+      app: nginx-deploy
+  template:
+  metadata:
+    labels:
+      app: nginx-deploy
