@@ -11,4 +11,4 @@ labels:
 - includeTemplates: true
   pairs:
     env: prod
-    lob: auto
+    lob: finance
