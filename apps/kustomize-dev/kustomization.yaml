@@ -7,7 +7,7 @@ labels:
       lob: auto
       app: nginx
       env: dev
-      priority: high
+      priority: low
     includeSelectors: true # <-- false by default
     includeTemplates: true # <-- false by default
 replicas:
