@@ -10,4 +10,4 @@ spec:
   template:
     metadata:
       labels:
-        app: nginx-deploye
+        app: nginx-deploy
