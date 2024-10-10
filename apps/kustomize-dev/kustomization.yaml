@@ -10,7 +10,7 @@ labels:
     priority: high
 replicas:
 - name: nginx
-  count: 1
+  count: 2
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
