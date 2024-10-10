@@ -5,6 +5,7 @@ metadata:
   labels:
     lob: auto
     env: prod
+    app: nginx-deploy
 spec:
   replicas: 5
   selector:
