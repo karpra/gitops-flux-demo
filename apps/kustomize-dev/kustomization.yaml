@@ -7,10 +7,10 @@ labels:
 - includeTemplates: true
   pairs:
     env: dev
-    priority: high
+    priority: low
 replicas:
 - name: nginx
-  count: 3
+  count: 1
 #patches:
 #  - path: nginx-dev.yaml
 #    target:
